@@ -34,6 +34,7 @@ $(function () {
     $("img").on('click', function (e) {
         $(e.target).remove();
     });
-    //   why does e.target only remove image, not other elements?
 
 });
+
+// jQuery doesn't play well with arrow functions
